@@ -1,0 +1,100 @@
+<div modal="true">
+    <div class="modal-header">
+        <h4>Register</h4>
+    </div>
+    <div class="modal-body">
+            <div data-role="fieldcontain">
+
+                <div class="form-horizontal" role="form">
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Title</label>
+                        <div class="col-md-6">
+                            <select class="form-control" ng-model="newRegister.name_title">
+                                <option value="1">Mr</option>
+                                <option value="1">Ms</option>
+                                <option value="3">Mrs</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">First Name</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" ng-model="newRegister.first_name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Last Name</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.last_name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Address</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.address">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Address 2</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.address2">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Phone</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">City</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.city">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Postcode</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.postal_code">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Email</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control"  ng-model="newRegister.email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Password</label>
+                        <div class="col-md-6">
+                            <input type="password" class="form-control"  ng-model="newRegister.mypass">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-md-6 col-md-offset-4">
+                            <button class="button btn-primary" ng-click="submitRegister()">Register</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" ng-click="cancel()">Close</button>
+    </div>
+</div>

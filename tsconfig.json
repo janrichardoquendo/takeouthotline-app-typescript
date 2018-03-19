@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "moduleResolution": "classic",
+        "target": "ES5"
+    },
+    "exclude": [
+        "views",
+        "www/css",
+        "www/img",
+        "www/fonts",
+        "platforms"
+    ]
+}

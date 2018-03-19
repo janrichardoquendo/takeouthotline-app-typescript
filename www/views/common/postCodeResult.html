@@ -1,0 +1,15 @@
+<ul data-role="listview" data-inset="true" id="demo" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+    <li ng-repeat="data in client">
+        <a href="index.html/#client" ng-if="isLoggedIn" ng-click="specificClient(data)">
+            <img src="img/Chutneys_Takeaway.png" class="res-img ">
+            <h2>{{data.getNameResto()}}</h2>
+            <p>{{data.getAddress()}} <br>{{data.getContact()}}</p>
+        </a>
+        <a ng-if="!isLoggedIn" ng-click="specificClient(data)">
+            <img src="img/Chutneys_Takeaway.png" class="res-img ">
+            <h2>{{data.getNameResto()}}</h2>
+            <p>{{data.getAddress()}} <br>{{data.getContact()}}</p>
+        </a>
+        <p><a href="index.html/#client"> </a></p>
+    </li>
+</ul>

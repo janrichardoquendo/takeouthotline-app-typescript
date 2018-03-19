@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no"/>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery.mobile-1.4.5.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/sweetalert2.min.css"/>
+
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/ngCart.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.min.js"></script>
+    <script src="js/fastclick.min.js"></script>
+
+    <script>
+        $(function () {
+            setTimeout(hideSplash, 2000);
+        });
+
+        function hideSplash() {
+            $.mobile.changePage("#search-page", "fade");
+        }
+    </script>
+
+    <script>
+        var attachFastClick = Origami.fastclick;
+        attachFastClick(document.body);
+    </script>
+
+    <script>
+        // var ref = window.open(encodeURI(url), '_blank', options);
+        // ref.addEventListener('loadstop', function(event) {        
+        //     if (event.url.match("mobile/close")) {
+        //         ref.close();
+        //     }
+        // });
+    </script>
+
+
+    <title>TakeOutHotline</title>
+</head>
+
+<body ng-controller="MainCtrl as main_cotroller">
+<div ng-controller="SearchPostalCodeController as search_post_code">
+
+    <div class="app">
+
+      <!--  <div data-role="page" data-theme="a" id="splash" style="background-color: #fff;">
+            <div class="splash">
+
+                <img src="img/logo.png" alt="splash"/>
+
+            </div>
+        </div>-->
+
+        <div data-role="page" id="search-page">
+
+            <div data-role="panel" id="navpanel" data-theme="a" data-display="overlay">
+                <div data-role="controlgroup" data-corners="false">
+                    <a ng-repeat="categ in selectedClient.getCategory()" href="#{{categ.getCategoryId()}}"
+                       target="_self" data-rel="close" data-ajax="false" data-role="button">{{categ.getCatName()}}</a>
+                </div>
+            </div>
+
+            <div id="header" data-role="header" data-theme="a">
+                <h1 style="margin: -42px -30% !important;">{{client_data.getFirstName()}}
+                    {{client_data.getLname()}}</h1>
+                <a href="index.html/#cart" class="ui-btn-right" style="margin-top:10px;"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <ngcart-summary></ngcart-summary>
+                </a>
+
+            </div>
+
+
+            <div data-role="content">
+
+                <div class="row banner-header">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <ul>
+                            <li>
+                                <div class="header-logo">
+                                    <img src="img/123ChutneysLogoSmall.png">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header-content">
+                                    <p>{{selectedClient.getNameResto()}}</p>
+                                    <p>{{selectedClient.getAddress()}} <br>
+                                        {{selectedClient.getTown()}} {{selectedClient.getPostCode()}}<br/>
+                                        {{selectedClient.getPhone()}}<br/>
+                                         {{selectedClient.getContact()}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div role="main" class="ui-content" id='products'>
+                <div ng-if="isLoading"> Loading menus..
+                    <img src="img/loading.gif"  style="width: 70px; height: 70px;">
+                </div>
+                <ul class="list-group">
+                    <li ng-repeat="categ in selectedClient.getCategory()" class="list-group-item">
+                        <a href="index.html/#client" ng-click="getSelectedCategory(categ)">
+                            <div>
+                                {{categ.getCatName()}}
+                                <i style="color: black;" class="fa fa-chevron-right pull-right" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="page" id="client" data-theme="a">
+            <div ng-if="client">
+                <div ng-include="'views/common/clientClick.html'"></div>
+            </div>
+            <div ng-if="!client">No result</div>
+        </div>
+
+        <div data-role="page" id="cart">
+            <div ng-include="'views/common/cart.html'"></div>
+        </div>
+
+        <div data-role="page" id="register">
+            <div ng-include="'views/common/register.html'"></div>
+        </div>
+
+        <div data-role="page" id="orders">
+            <div ng-include="'views/common/orderHistory.html'"></div>
+        </div>
+
+        <div data-role="page" id="profile">
+            <div ng-include="'views/common/profile.html'"></div>
+        </div>
+
+        <div data-role="page" id="login" style="background-color: white;">
+            <div ng-include="'views/common/login.html'"></div>
+        </div>
+
+        <div data-role="page" id="register-log">
+            <div data-role="header" style="margin-bottom: 30px;">
+                <a style="margin-top:10px;" href="index.html/#cart"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                <img src="img/ChutneysLogoSmall.png" class="img-responsive">
+            </div>
+            <div class='log-ref-dev'>
+                <a href="index.html/#register" ng-if="!isLoggedIn">
+                <button>Register</button>
+            </a>
+            <a href="index.html/#login" ng-if="!isLoggedIn">
+                <button>Login</button>
+            </a>
+            </div>
+            
+        </div>
+
+
+        <footer  style="position: fixed; bottom: 0px; width: 100%; height:50px; background-color:white;border:#E8E8E8 1px solid;border-left:none;border-right:none;border-bottom:none;">
+           <div class="row-fluid" style="margin-top:10px;text-align:center;">
+                <div ng-if="!isLoggedIn" class="col-xs-23 col-sm-12 col-md-12">
+                    <a href="index.html/#login" ng-click="clickFirstTimeLogin()" class="btn btn-primary">
+                         <i class="fa fa-user" aria-hidden="true"></i> Login / Register
+                    </a>
+                </div>
+                <!--<div ng-if="isClickedLoginFirstTime && !isLoggedIn" class="col-xs-23 col-sm-12 col-md-12">
+                    <a href="index.html/#register" class="btn btn-primary">
+                         <i class="fa fa-user" aria-hidden="true"></i> Register
+                    </a>
+                </div>-->
+                <div ng-if="isLoggedIn" class="col-xs-6 col-sm-6 col-md-7">
+                    <a href="index.html/#profile">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Profile
+                    </a>
+                </div>
+                <div ng-if="isLoggedIn" class="col-xs-6 col-sm-6 col-md-7">
+                    <a href="index.html/#orders">
+                        <i class="fa fa-history" aria-hidden="true"></i>
+                        Order History
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/ng-template" id="template/ngCart/summary.html">
+
+            <span> {{ ngCart.totalCost() | currency:"£"  }} </span>
+
+
+        </script>
+
+        <script type="text/ng-template" id="template/ngCart/cart.html">
+            <div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
+                Your cart is empty
+            </div>
+
+            <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
+
+                <table class="table table-striped ngCart cart">
+
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Amount</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr ng-show="ngCart.getSubTotal()">
+                        <td class='brdr'></td>
+                        <td class='brdr'>SubTotal:</td>
+                        <td class='brdr'></td>
+                        <td class='brdr'>{{ ngCart.getSubTotal() | currency:"£" }}</td>
+                    </tr>
+                    <tr ng-show="ngCart.getTax()">
+                        <td></td>
+                        <td>Tax ({{ ngCart.getTaxRate() }}%):</td>
+                        <td></td>
+                        <td>{{ ngCart.getTax() | currency:"£" }}</td>
+                    </tr>
+                    <tr ng-show="ngCart.getShipping()">
+                        <td></td>
+                        <td>Delivery Charge:</td>
+                        <td></td>
+                        <td>{{ ngCart.getShipping() | currency:"£" }}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total:</td>
+                        <td></td>
+                        <td>{{ ngCart.totalCost() | currency:"£" }}</td>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                    <tr ng-repeat="item in ngCart.getCart().items track by $index">
+                        <td><span ng-click="ngCart.removeItemById(item.getId())"
+                                  class="glyphicon glyphicon-remove"></span></td>
+
+                        <td>{{ item.getName() }}</td>
+                        <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}"
+                                  ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp;
+                            {{ item.getQuantity() | number }}&nbsp;&nbsp;
+                            <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
+
+                        <td>{{ item.getPrice() * item.getQuantity() | number | currency:"£"}}</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </script>
+
+        <script type="text/ng-template" id="template/ngCart/addtocart.html">
+            <div ng-hide="attrs.id">
+                <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+
+            </div>
+            <div ng-show="attrs.id">
+                <div>
+                    <span ng-show="quantityMax">
+                        <select name="quantity" id="quantity" ng-model="q" ng-options=" v for v in qtyOpt"></select>
+                    </span>
+                    <a class="btn btn-sm btn-primary" ng-click="ngCart.addItem(id, name, price, q, data)"
+                       ng-transclude></a>
+                </div>
+                <mark ng-show="inCart()">
+                    This item is in your cart. <a ng-click="ngCart.removeItemById(id)"
+                                                  style="cursor: pointer;">Remove</a>
+                </mark>
+            </div>
+        </script>
+
+        <script type="text/ng-template" id="template/ngCart/checkout.html">
+
+            <div ng-if="service=='http' || service == 'log'">
+                <button class="btn btn-primary" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()"
+                        ng-transclude>Checkout 
+                </button>
+            </div>
+
+            <div ng-if="service =='paypal'">
+                <div class='paymentContent'>
+                    <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post"> -->
+                    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_cart">
+                        <input type="hidden" name="upload" value="1">
+                        <input type="hidden" name="business" value="donna.marollano-facilitator@indigo21.com">
+                        <input type="hidden" name="quantity" value="{{ ngCart.getTotalItems() }}">
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="hidden" name="return" value="index.html">
+                        <div ng-repeat="item in ngCart.getCart().items track by $index">
+                            <input type="hidden" name="item_name_{{$index+1}}" value="{{item.getName()}}">
+                            <input type="hidden" name="amount_{{$index+1}}" value="{{item.getPrice()}}">
+                            <input type="hidden" name="shipping_{{$index+1}}" value="{{ngCart.getShipping()}}">
+                            <input type="hidden" name="quantity_{{$index+1}}" value="{{item.getQuantity()}}">
+                        </div>
+                        <input type="image" src="img/PayPal-btn2.png" border="0" name="submit" width='182px' alt="PayPal - The safer, easier way to pay online!">
+                    </form>
+                    
+                </div>
+            </div>
+
+            <!--/////////// Sagepay -->
+            <!-- <div class='paymentContent'> -->
+                    <!-- <input type='image' src='img/SagePay-btn2.png' name='submit'> -->
+                <!--<form method='POST' id='SagePayForm'-->
+                      <!--action='https://test.sagepay.com/gateway/service/vspform-register.vsp'>-->
+                    <!--<input type='hidden' name='VPSProtocol' value='_cart'>-->
+                    <!--<input type='hidden' name='TxType' value='PAYMENT'>-->
+                    <!--<input type='hidden' name='Vendor' value='carexcesscover'>-->
+                    <!--<input type='hidden' name='Crypt' value='".$sagePay->getCrypt()."'>-->
+                    <!--<input type='image' src='img/SagePay-btn2.png' name='submit'> -->
+                <!-- </form> -->
+            <!-- </div> -->
+
+            <!--/////////// Cash on delivery -->
+            <!--<div class='paymentContent'>-->
+                <!--<p><b>OR</b></p>-->
+                <!--<input type='image' src='img/Cash-btn.png' name='submit'>-->
+            <!--</div>-->
+
+
+        </script>
+
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<!--<script type="text/javascript" src="js/paypal-mobile-js-helper.js"></script>-->
+
+
+<script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent) {
+        window.parent.parent.postMessage(["resultsFrame", {
+            height: document.body.getBoundingClientRect().height,
+            slug: "ypjrsat0"
+        }], "*")
+    }
+</script>
+
+
+<script type="text/javascript">
+
+    // Fixes "Uncaught ReferenceError: io is not defined".
+    // We need to load RequireJs after socket.io has been loaded.
+
+    function injectRequireJs() {
+        var h = document.getElementsByTagName('body')[0];
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.src = 'js/require/require.js';
+        s.setAttribute('data-main', 'js/appLoader');
+        h.appendChild(s);
+    }
+    if (cordova) {
+        injectRequireJs();
+    }
+
+</script>
+</body>
+
+</html>

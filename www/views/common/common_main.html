@@ -1,0 +1,53 @@
+<div id="search-page" data-theme="a">
+ <div data-role="header">
+        <img src="../img/takeouthotline_logo.png" class="img-responsive" >
+  </div>
+
+    <div data-role="main" class="ui-content" id='take-out-app'>
+        <h3 class='content-heading'> Order in your Area </h3>
+
+        <div class='ui-field-contain'>
+            <div class="ui-grid-b">
+                <div  class="ui-block-a" id='cuisine'>
+                    <label for='select-native-1'> Cuisine</label>
+                    <select for='select-native-1' id='select-native-1' name='s_cuisine' data-mini="true" >
+                        <option value='1'> All </option>
+                        <option value='2'> Bangladeshi </option>
+                        <option value='3'> Burgers </option>
+                        <option value='4'> Chinese </option>
+                        <option value='5'> Halal </option>
+                        <option value='6'> Indian </option>
+                        <option value='7'> Japanese </option>
+                        <option value='8'> Kebab </option>
+                        <option value='9'> Labanese </option>
+                        <option value='10'> Pizza </option>
+                        <option value='11'> Salads </option>
+                        <option value='12'> Soups </option>
+                        <option value='13'> Sushi </option>
+                        <option value='14'> Chicken </option>
+                    </select>
+                </div>
+
+                <div class="ui-block-b" id='postcode'>
+                    <label for='select-native-1'> Postcode</label>
+                    <input type='text' value='' name='s_postcode'  id='s_postcode' data-mini="true" />
+                </div>
+
+
+
+                <div class="ui-block-c" id='btn'>
+                    <label for='select-native-1'> &nbsp;</label>
+
+                    <button ng-click="myFunction()" data-mini="true" id='search'>Search</button >
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <ul data-role="listview" data-inset="true" id='demo'>
+
+        </ul>
+    </div>
+</div>

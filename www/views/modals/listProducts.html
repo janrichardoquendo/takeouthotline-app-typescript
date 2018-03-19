@@ -1,0 +1,29 @@
+<div modal="true">
+    <div class="modal-header">
+        <h4>Add to cart</h4>
+    </div>
+    <div class="modal-body">
+        <div ng-if="selectedMenus">
+            <h4>{{selectedMenus.getMenuName()}}</h4>
+            <div data-role="fieldcontain">
+                <table class="table">
+                    <tr ng-repeat="price in selectedMenus.getMenuPrice()">
+                        <td valign="top">Price : {{price.getPrice()}}<br/>
+                            <div>Quantity</div>
+                            <ngcart-addtocart
+                                    id="{{selectedMenus.getMenuId()}}"
+                                    name="{{selectedMenus.getMenuName()}}"
+                                    price="{{price.getPrice()}}"
+                                    quantity-max="5">
+                                Add to Cart
+                            </ngcart-addtocart>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" ng-click="cancel()">Close</button>
+    </div>
+</div>

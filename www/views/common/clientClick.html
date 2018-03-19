@@ -1,0 +1,62 @@
+<div ng-if="!selectedClient">
+    Loading menus..
+</div>
+<div ng-if="selectedClient">
+
+    <div id="header" data-role="header" data-theme="a" data-position="fixed">
+        <a style="margin-top:10px;" href="index.html/#search-page"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        <h1 style="margin: -42px -30% !important;">{{client_data.getFirstName()}} {{client_data.getLname()}}</h1>
+        <a href="index.html/#cart" class="ui-btn-right" style="margin-top:10px;"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <ngcart-summary></ngcart-summary>  </a>
+    </div>
+</div>
+
+<div role="main" class="ui-content" id='products'>
+
+  <div class="panel-group" id="accordion">
+      <div class="panel panel-success">
+          <div class="panel-heading custom-panel-color">
+              <h4 class="panel-title">
+                  {{selectedCategory.getCatName()}}
+              </h4>
+          </div>
+          <div id="collapseOne_{{selectedCategory.getCategoryId()}}" class="panel-collapse collapse in">
+              <div class="panel-body">
+                  <ul class="productsList">
+                      <li ng-repeat="menus in selectedCategory.getMenus()">
+
+                          <div class="row" style="font-size: 0.7em;">
+                              <div ng-if="menus.getMenuPrice().length == 1 && menus.getMenuPrice().length == 1 && menus.getMenuPrice()[0].getOptPrice() != ''" class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                  <strong>{{menus.getMenuName()}}  </strong> <p ng-if="selectedCategory.getCatName() == 'Big Value Meals'" ng-bind="menus.getMenuDescription()">  </p>
+                              </div>
+                              <div ng-if="menus.getMenuPrice().length == 1 && menus.getMenuPrice().length == 1 && menus.getMenuPrice()[0].getOptPrice() == ''" class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <strong>{{menus.getMenuName()}}   </strong> <p ng-if="selectedCategory.getCatName() == 'Big Value Meals'" ng-bind="menus.getMenuDescription()">  </p>
+                              </div>
+                              <div ng-if="menus.getMenuPrice().length == 1 && menus.getMenuPrice().length > 1" class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                  <strong>{{menus.getMenuName()}}   </strong> <p ng-if="selectedCategory.getCatName() == 'Big Value Meals'" ng-bind="menus.getMenuDescription()">  </p>
+                              </div>
+                              <div ng-if="menus.getMenuPrice().length > 1" class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                  <strong>{{menus.getMenuName()}}   </strong> <p ng-if="selectedCategory.getCatName() == 'Big Value Meals'" ng-bind="menus.getMenuDescription()">  </p>
+                              </div>
+                              <div ng-repeat="price in menus.getMenuPrice()">
+                                  <div ng class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                      {{price.getOptPrice()}}
+                                  </div>
+                                  <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+                                      £{{price.getPrice()}} &nbsp;
+                                      <i class="fa fa-plus-square-o" aria-hidden="true" ng-click="addItemToCart(menus.getMenuId(), menus.getMenuName(), price.getPrice(), 1, '', price.getOptPrice())"></i>
+                                  </div>
+                              </div>
+                              <br clear="all"/>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+</div>
+
+<!--<a href="index.html/#search-page"><< Back</a>-->

@@ -1,0 +1,32 @@
+<div modal="true">
+    <div class="modal-header">
+        <h4>Login</h4>
+    </div>
+    <div class="modal-body">
+        <div data-role="fieldcontain">
+
+            <div class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Email</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" ng-model="customer.email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Password</label>
+                    <div class="col-md-6">
+                        <input type="password" class="form-control"  ng-model="customer.mypass">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-6 col-md-offset-4">
+                        <button class="btn btn-primary" ng-click="login()">Login</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" ng-click="cancel()">Close</button>
+    </div>
+</div>

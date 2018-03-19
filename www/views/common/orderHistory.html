@@ -1,0 +1,32 @@
+<div id="header" data-role="header" data-theme="a">
+    <a style="margin-top:10px;" href="index.html/#search-page"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    <h1 style='margin-top: 19px;'>My Order History</h1>
+</div>
+<div class="container" style="padding-left: 20px;padding-right: 20px;padding-top: 10px;">
+    <div class="row">
+        <div class="panel panel-primary" ng-repeat="items in orderHistory">
+            <div class="panel-heading">Your Order {{testVar}}</div>
+            <div class="panel-body">
+                <p>Order ID: {{items.order_id}}</p>
+                <p>Order Date: {{items.order_date}}</p>
+                <p>Order From: {{items.order_from}}</p>
+                <p>Total: {{fortmatDecimal(items.total)}}</p>
+                <p ng-if="items.status == 0">Status: Pending</p>
+                <p ng-if="items.status == 1">Status: Completed</p>
+                <p ng-if="items.status == 2">Status: Canceled</p>
+                <table class="table">
+                    <thead>
+                    <td>Menu Name</td>
+                    <td>Qty</td>
+                    </thead>
+                    <tbody ng-repeat="order in items.items">
+                    <td>{{order.menu_name}}</td>
+                    <td>{{order.quantity}}</td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

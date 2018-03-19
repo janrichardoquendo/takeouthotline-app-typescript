@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a94cf44f-6e75-4b1f-9575-eba21380c0f5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/appLoader.js" afterPath="$PROJECT_DIR$/www/js/appLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app_controller.js" afterPath="$PROJECT_DIR$/www/js/app_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js" afterPath="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js.map" afterPath="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controller/searchPostCondeController.ts" afterPath="$PROJECT_DIR$/www/js/controller/searchPostCondeController.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Category.js" afterPath="$PROJECT_DIR$/www/js/models/Category.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Category.js.map" afterPath="$PROJECT_DIR$/www/js/models/Category.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Client.js" afterPath="$PROJECT_DIR$/www/js/models/Client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Client.js.map" afterPath="$PROJECT_DIR$/www/js/models/Client.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Customer.js" afterPath="$PROJECT_DIR$/www/js/models/Customer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Customer.js.map" afterPath="$PROJECT_DIR$/www/js/models/Customer.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/MenuPrice.js" afterPath="$PROJECT_DIR$/www/js/models/MenuPrice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/MenuPrice.js.map" afterPath="$PROJECT_DIR$/www/js/models/MenuPrice.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Menus.js" afterPath="$PROJECT_DIR$/www/js/models/Menus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Menus.js.map" afterPath="$PROJECT_DIR$/www/js/models/Menus.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Order.js" afterPath="$PROJECT_DIR$/www/js/models/Order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Order.js.map" afterPath="$PROJECT_DIR$/www/js/models/Order.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/models/Persistable.js" afterPath="$PROJECT_DIR$/www/js/models/Persistable.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="takeouthotline-app" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app_controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchPostCondeController.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/controller/searchPostCondeController.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="337" column="52" lean-forward="true" selection-start-line="337" selection-start-column="52" selection-end-line="337" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>minus</find>
+      <find>local</find>
+      <find>selectClient</find>
+      <find>selectedCl</find>
+      <find>[0]</find>
+      <find>client_data</find>
+      <find>initClient</find>
+      <find>navpanel</find>
+      <find>init</find>
+      <find>selectedClient</find>
+      <find>index</find>
+      <find>myapp</find>
+      <find>client</find>
+      <find>getClie</find>
+      <find>store-products</find>
+      <find>productsList</find>
+      <find>$scope.client</find>
+      <find>collapsible</find>
+      <find>#client</find>
+      <find>this is</find>
+      <find>#</find>
+      <find>window.localStorage</find>
+      <find>openPersonalDetailsModal</find>
+      <find>paypa</find>
+      <find>ng</find>
+      <find>getC</find>
+      <find>getck</find>
+      <find>console.log(&quot;Queryy...&quot;);</find>
+      <find>myFunction</find>
+      <find>getClient</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>remarks</replace>
+      <replace>newRegister</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/views/modals/reigster.html" />
+        <option value="$PROJECT_DIR$/www/js/models/Customer.ts" />
+        <option value="$PROJECT_DIR$/www/views/modals/register.html" />
+        <option value="$PROJECT_DIR$/www/js/models/Order.ts" />
+        <option value="$PROJECT_DIR$/www/views/common/register.html" />
+        <option value="$PROJECT_DIR$/www/js/paypal-mobile-js-helper.js" />
+        <option value="$PROJECT_DIR$/www/views/common/checkout.html" />
+        <option value="$PROJECT_DIR$/platforms/browser/www/js/controller/searchPostCondeController.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Category.ts" />
+        <option value="$PROJECT_DIR$/www/views/modals/listProducts.html" />
+        <option value="$PROJECT_DIR$/www/views/common/postCodeResult.html" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/www/js/appLoader.ts" />
+        <option value="$PROJECT_DIR$/www/views/common/clientClick.html" />
+        <option value="$PROJECT_DIR$/www/js/restaurant.js" />
+        <option value="$PROJECT_DIR$/www/views/common/cart.html" />
+        <option value="$PROJECT_DIR$/www/css/index.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/main.js" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/app_controller.js" />
+        <option value="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js" />
+        <option value="$PROJECT_DIR$/www/js/controller/searchPostCondeController.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules" />
+    <handled-path value="$PROJECT_DIR$/platforms/ios/cordova/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="takeouthotline-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="takeouthotline-app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="takeouthotline-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="takeouthotline-app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="takeouthotline-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="takeouthotline-app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a94cf44f-6e75-4b1f-9575-eba21380c0f5" name="Default" comment="" />
+      <created>1489575964092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489575964092</updated>
+      <workItem from="1489575967818" duration="5280000" />
+      <workItem from="1489621277194" duration="99000" />
+      <workItem from="1489646661829" duration="234000" />
+      <workItem from="1489660713764" duration="361000" />
+      <workItem from="1489710066229" duration="83000" />
+      <workItem from="1489748587875" duration="348000" />
+      <workItem from="1489811639206" duration="7465000" />
+      <workItem from="1489922567891" duration="3677000" />
+      <workItem from="1489968432573" duration="14000" />
+      <workItem from="1489968464096" duration="13000" />
+      <workItem from="1489974459325" duration="37000" />
+      <workItem from="1489986691900" duration="128000" />
+      <workItem from="1489990983639" duration="5000" />
+      <workItem from="1489991907322" duration="5162000" />
+      <workItem from="1490009809123" duration="3623000" />
+      <workItem from="1490054664845" duration="453000" />
+      <workItem from="1490083380492" duration="5028000" />
+      <workItem from="1490098084201" duration="1110000" />
+      <workItem from="1490141044529" duration="582000" />
+      <workItem from="1490171415111" duration="2743000" />
+      <workItem from="1490184427094" duration="2646000" />
+      <workItem from="1490227585012" duration="78000" />
+      <workItem from="1490260218732" duration="557000" />
+      <workItem from="1490313846408" duration="38000" />
+      <workItem from="1491403271123" duration="2825000" />
+      <workItem from="1491724387134" duration="5787000" />
+      <workItem from="1491787915442" duration="5544000" />
+      <workItem from="1491902718354" duration="5144000" />
+      <workItem from="1491915114836" duration="2490000" />
+      <workItem from="1491956224568" duration="662000" />
+      <workItem from="1492077538571" duration="183000" />
+      <workItem from="1492342266635" duration="5700000" />
+      <workItem from="1492430173105" duration="68000" />
+      <workItem from="1492491981409" duration="3900000" />
+      <workItem from="1492521123956" duration="7674000" />
+      <workItem from="1492561269087" duration="136000" />
+      <workItem from="1492607462127" duration="10115000" />
+      <workItem from="1492762686034" duration="566000" />
+      <workItem from="1492936480380" duration="1200000" />
+      <workItem from="1492946349247" duration="9728000" />
+      <workItem from="1492992882809" duration="296000" />
+      <workItem from="1493027225161" duration="616000" />
+      <workItem from="1493080088942" duration="1000" />
+      <workItem from="1493085023399" duration="3000" />
+      <workItem from="1493089933471" duration="1226000" />
+      <workItem from="1493211466376" duration="5463000" />
+      <workItem from="1493252284775" duration="560000" />
+      <workItem from="1493255988834" duration="5000" />
+      <workItem from="1496202903631" duration="505000" />
+      <workItem from="1499219771405" duration="4074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="114235000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2956381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27698863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29545453" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/www/js/appLoader.js" />
+        <option value="$PROJECT_DIR$/www/js/appLoader.js.map" />
+        <option value="$PROJECT_DIR$/www/js/test.js" />
+        <option value="$PROJECT_DIR$/www/js/test.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/Customer.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Customer.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/Persistable.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Persistable.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/Client.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Client.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/MenuPrice.js" />
+        <option value="$PROJECT_DIR$/www/js/models/MenuPrice.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/Menus.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Menus.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/Category.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Category.js.map" />
+        <option value="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js" />
+        <option value="$PROJECT_DIR$/www/js/controller/searchPostCondeController.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/appLoader.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/appLoader.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/test.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/test.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Customer.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Customer.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Persistable.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Persistable.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Client.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Client.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/MenuPrice.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/MenuPrice.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Menus.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Menus.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Category.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Category.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/controller/searchPostCondeController.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/controller/searchPostCondeController.js.map" />
+        <option value="$PROJECT_DIR$/www/js/models/Order.js" />
+        <option value="$PROJECT_DIR$/www/js/models/Order.js.map" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Order.js" />
+        <option value="$PROJECT_DIR$/platforms/ios/www/js/models/Order.js.map" />
+        <option value="$PROJECT_DIR$/platforms/browser/www/js/appLoader.js.map" />
+        <option value="$PROJECT_DIR$/platforms/browser/www/js/test.js.map" />
+        <option value="$PROJECT_DIR$/platforms/browser/www/js/test.js" />
+        <option value="$PROJECT_DIR$/platforms/browser/www/js/appLoader.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <marker date="1496891816000" expanded="true" signature="1101:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1496891816000" expanded="true" signature="1101:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1496891816000" expanded="true" signature="1101:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1496891816000" expanded="true" signature="1101:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/Chutneys_Takeaway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/fa-chevron-down.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/takeouthotline_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/appLoader.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controller/searchPostCondeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="252" column="41" lean-forward="false" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="41" />
+          <folding>
+            <marker date="1499233997000" expanded="true" signature="249:16782" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="10972:13297" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11003:13291" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11027:12869" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11539:12848" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11646:12830" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11692:12808" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11796:12658" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="11938:12115" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="12692:12782" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="12887:13281" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="13328:14233" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="14003:14204" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="14072:14192" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="14271:14737" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="14522:14706" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="14586:14694" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="14772:15287" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="15060:15259" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="15130:15247" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="15326:15497" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="15530:16070" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="16113:16219" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="16158:16213" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="16262:16427" ph="{...}" />
+            <marker date="1499233997000" expanded="true" signature="16306:16421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-944">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <marker date="1496891816000" expanded="true" signature="1101:1184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controller/searchPostCondeController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="337" column="52" lean-forward="true" selection-start-line="337" selection-start-column="52" selection-end-line="337" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

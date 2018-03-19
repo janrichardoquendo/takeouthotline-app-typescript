@@ -1,0 +1,100 @@
+<div id="header" data-role="header" data-theme="a">
+    <a style="margin-top:10px;" href="index.html/#cart"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    <h1 style='margin-top: 19px;'>Register</h1>
+</div>
+<div data-role="fieldcontain" role="main" class="ui-content" id='register'>
+
+    <div class="" role="form">
+
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <select class="form-control" ng-model="newRegister.name_title" required="required">
+                    <option value="" selected>Please select title</option>
+                    <option value="1">Mr</option>
+                    <option value="1">Ms</option>
+                    <option value="3">Mrs</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="First Name" class="form-control" ng-model="newRegister.first_name" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="Last Name" class="form-control" ng-model="newRegister.last_name" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="Address" class="form-control" ng-model="newRegister.address" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="Address 2" class="form-control" ng-model="newRegister.address2" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="Phone" class="form-control" ng-model="newRegister.phone" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="City" class="form-control" ng-model="newRegister.city" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="Postcode" class="form-control" ng-model="newRegister.postal_code" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="text" placeholder="Email" class="form-control" ng-model="newRegister.email" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-12">
+                <input type="password" placeholder="Password" class="form-control" ng-model="newRegister.mypass" required="required">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-12">
+                <input type="password" placeholder="Confirm Password" class="form-control" ng-model="newRegister.mypass_confirm" required="required">
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-6 col-md-offset-4">
+                <button class="btn btn-primary rg-btn" ng-click="submitRegister()">Register</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
